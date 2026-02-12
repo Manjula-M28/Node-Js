@@ -246,6 +246,6 @@ app.get("/delete/:id", (req, res) => {
   res.redirect("/");
 });
 
-app.listen(3000, () => {
-  console.log("Todo App running on http://localhost:3000");
+app.listen(3000, '0.0.0.0', () => {
+  console.log("Todo App running on http://40.192.89.12:3000");
 });
